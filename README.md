@@ -1,6 +1,6 @@
 <!-- ![Protractor, Jasmine and Typescript](./images/api-protractor-jasmine-typescript.png?raw=true "Protractor, Jasmine and Typescript") -->
 
-# API Testing using Protractor, Jasmine and Typescript Setup Guide
+# API Testing using Request node module, Protractor, Jasmine and Typescript Setup Guide
 This API Test Automation framework is designed using Request node module, Protractor, Jasmine and TypeScript
 
 ## Framework Structure
