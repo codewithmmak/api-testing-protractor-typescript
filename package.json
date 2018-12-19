@@ -1,0 +1,44 @@
+{
+  "name": "api-testing-protractor-typescript",
+  "version": "1.0.0",
+  "description": "This is API Test Automation framework designed using Protractor and TypeScript",
+  "homepage": "https://github.com/qaloop/api-testing-protractor-typescript",
+  "main": "conf.js",
+  "dependencies": {
+    "jasmine": "^3.3.1",
+    "protractor": "^5.4.1",
+    "protractor-beautiful-reporter": "^1.2.7",
+    "request": "^2.88.0",
+    "typescript": "^3.2.2",
+    "webdriver-manager": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.3.2",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.11.0"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "clean": "rimraf temp/ && rimraf download/",
+    "pretest": "npm run clean && npm run tsc",
+    "test": "protractor temp/conf.js",
+    "webdriver-update": "node node_modules/protractor/bin/webdriver-manager update"
+  },
+  "keywords": [
+    "request",
+    "protractor",
+    "typescript",
+    "javascript",
+    "angular",
+    "angularjs",
+    "vscode",
+    "testing",
+    "api testing"
+  ],
+  "author": "QA Loop",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qaloop/api-testing-protractor-typescript.git"
+  }
+}
