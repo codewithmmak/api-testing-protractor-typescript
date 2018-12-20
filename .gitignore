@@ -1,0 +1,9 @@
+node_modules/
+
+temp/
+
+test-results/
+
+downloads/*
+
+log/*
