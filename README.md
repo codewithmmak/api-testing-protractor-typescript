@@ -57,8 +57,6 @@ This API Test Automation framework is designed using Request node module, Protra
 ## Reference
 * https://www.npmjs.com/package/request
 
-* https://scotch.io/tutorials/nodejs-tests-mocking-http-requests
-
 * https://jsonplaceholder.typicode.com/
 * https://github.com/typicode/jsonplaceholder
 

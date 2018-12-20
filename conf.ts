@@ -16,7 +16,7 @@ exports.config = {
     },
 
     // If you have one app to test then you can mention the base url here.
-    // baseUrl: 'https://juliemr.github.io/protractor-demo/',
+    // baseUrl: 'https://jsonplaceholder.typicode.com/users',
 
     // Framework to use. Jasmine is recommended.
     framework: 'jasmine2',
