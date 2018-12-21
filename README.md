@@ -23,8 +23,6 @@ This API Test Automation framework is designed using Request node module, Protra
 
 ### Setup Scripts 
 * Clone the repository into a folder
-* Install Protractor: `npm install -g protractor`
-* Update necessary binaries of webdriver-manager: `webdriver-manager update` or `npm install -g webdriver-manager`
 * Go to Project root directory and install Dependency: `npm install`
 * All the dependencies from package.json and ambient typings would be installed in node_modules folder.
 
@@ -49,7 +47,7 @@ This API Test Automation framework is designed using Request node module, Protra
 
 
 
-## [Step by Step installation instruction for Beginners](https://qaloop.tk/protractor/ "Step by Step installation instruction for Beginners")
+## [Step by Step installation instruction for Beginners](https://qaloop.tk/blog/2018/12/20/rest-api-automation-using-request-npm-protractor-jasmine-and-typescript  "Step by Step installation instruction for Beginners")
 
 
 ## Visit my [Blog](https://qaloop.tk/blog/ "Blog")
