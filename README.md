@@ -45,9 +45,9 @@ This API Test Automation framework is designed using Request node module, Protra
 <img src= "./images/console-test-results.png" width=400 height=200 alt="API Testing using Protractor, Jasmine and Typescript Test Result"/>
 </p>
 
-[Protractor, Jasmine and Typescript Test Results](./images/test-results.png?raw=true "Protractor, Jasmine and Typescript Test Results")
+![Protractor, Jasmine and Typescript Test Results](./images/test-results.png?raw=true "Protractor, Jasmine and Typescript Test Results")
 
-[Protractor, Jasmine and Typescript Console Test Results](./images/console-test-results.png?raw=true "Protractor, Jasmine and Typescript Console Test Results")
+![Protractor, Jasmine and Typescript Console Test Results](./images/console-test-results.png?raw=true "Protractor, Jasmine and Typescript Console Test Results")
 
 
 ## [Step by Step installation instruction for Beginners](https://qaloop.tk/blog/2018/12/20/rest-api-automation-using-request-npm-protractor-jasmine-and-typescript  "Step by Step installation instruction for Beginners")
