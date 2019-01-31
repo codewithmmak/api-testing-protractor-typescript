@@ -1,4 +1,4 @@
-<!-- ![Protractor, Jasmine and Typescript](./images/api-protractor-jasmine-typescript.png?raw=true "Protractor, Jasmine and Typescript") -->
+<!-- ![API Testing using Protractor, Jasmine and Typescript](./images/api-testing-protractor-jasmine-typescript.png?raw=true "API Testing using Protractor, Jasmine and Typescript") -->
 
 # API Testing using Request node module, Protractor, Jasmine and Typescript Setup Guide
 This API Test Automation framework is designed using Request node module, Protractor, Jasmine and TypeScript
@@ -37,14 +37,9 @@ This API Test Automation framework is designed using Request node module, Protra
 * Go to Project root directory and run command: `npm update`
 
 ### Sample Test Results
-<p align="center">
-<img src= "./images/test-results.png" width=800 height=600 alt="API Testing using Protractor, Jasmine and Typescript Test Result"/>
-</p>
+![Protractor, Jasmine and Typescript Test Results](./images/test-results.png?raw=true "Protractor, Jasmine and Typescript Test Results")
 
-<p align="center">
-<img src= "./images/console-test-results.png" width=400 height=200 alt="API Testing using Protractor, Jasmine and Typescript Test Result"/>
-</p>
-
+![Protractor, Jasmine and Typescript Console Test Results](./images/console-test-results.png?raw=true "Protractor, Jasmine and Typescript Console Test Results")
 
 
 ## [Step by Step installation instruction for Beginners](https://qaloop.tk/blog/rest-api-automation-using-request-npm-protractor-jasmine-and-typescript  "Step by Step installation instruction for Beginners")
