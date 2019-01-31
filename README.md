@@ -37,9 +37,9 @@ This API Test Automation framework is designed using Request node module, Protra
 * Go to Project root directory and run command: `npm update`
 
 ### Sample Test Results
-![Protractor, Jasmine and Typescript Test Results](./images/test-results.png?raw=true "Protractor, Jasmine and Typescript Test Results")
+![API Testing using Protractor, Jasmine and Typescript Test Results](./images/test-results.png?raw=true "API Testing using Protractor, Jasmine and Typescript Test Results")
 
-![Protractor, Jasmine and Typescript Console Test Results](./images/console-test-results.png?raw=true "Protractor, Jasmine and Typescript Console Test Results")
+![API Testing using Protractor, Jasmine and Typescript Console Test Results](./images/console-test-results.png?raw=true "API Testing using Protractor, Jasmine and Typescript Console Test Results")
 
 
 ## [Step by Step installation instruction for Beginners](https://qaloop.tk/blog/rest-api-automation-using-request-npm-protractor-jasmine-and-typescript  "Step by Step installation instruction for Beginners")
