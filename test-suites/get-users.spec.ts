@@ -1,10 +1,6 @@
-import { browser } from 'protractor';
-
 var request = require('request');
 
 describe('GET method in API: ', function () {
-
-    browser.ignoreSynchronization = true; // for non-angular websites
 
     it('As a user I can get User using query string', function (done) {
 

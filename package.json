@@ -2,27 +2,27 @@
   "name": "api-testing-protractor-typescript",
   "version": "1.0.0",
   "description": "This API Test Automation framework is designed using Request node module, Protractor, Jasmine and TypeScript",
-  "homepage": "https://github.com/qaloop/api-testing-protractor-typescript",
   "main": "conf.js",
   "dependencies": {
-    "jasmine": "^3.99.0",
-    "protractor": "^5.4.4",
+    "jasmine": "^4.5.0",
+    "protractor": "^7.0.0",
     "protractor-beautiful-reporter": "^1.3.6",
     "request": "^2.88.2",
-    "rimraf": "^2.7.1",
-    "typescript": "^3.9.10"
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.4"
   },
   "devDependencies": {
-    "@types/jasmine": "^3.10.5",
-    "codelyzer": "^4.5.0",
+    "@types/jasmine": "^4.3.1",
+    "@types/node": "^18.11.13",
+    "npm-check-updates": "^16.5.6",
     "tslint": "^5.20.1",
-    "yargs-parser": "^21.0.1"
+    "yargs-parser": "^21.1.1"
   },
   "scripts": {
+    "clean": "rimraf temp/ && rimraf test-results/ && rimraf download/",
     "tsc": "tsc",
-    "clean": "rimraf temp/ && rimraf download/",
     "pretest": "npm run clean && npm run tsc",
-    "test": "protractor temp/conf.js",
+    "test": "npm run pretest && protractor temp/conf.js",
     "webdriver-update": "node node_modules/protractor/bin/webdriver-manager update"
   },
   "keywords": [
@@ -36,10 +36,6 @@
     "testing",
     "api testing"
   ],
-  "author": "QA Loop",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/qaloop/api-testing-protractor-typescript.git"
-  }
+  "author": "Code with MMAK",
+  "license": "MIT"
 }

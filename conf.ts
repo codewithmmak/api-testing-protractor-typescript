@@ -42,7 +42,7 @@ exports.config = {
             jsonsSubfolder: 'jsons', // JSONs Subfolder
             takeScreenShotsForSkippedSpecs: true, // Screenshots for skipped test cases
             takeScreenShotsOnlyForFailedSpecs: true, // Screenshots only for failed test cases
-            docTitle: 'Test Automation Execution Report', // Add title for the html report
+            docTitle: 'API Test Automation Execution Report', // Add title for the html report
             docName: 'TestResult.html', // Change html report file name
             gatherBrowserLogs: true // Store Browser logs
         }).getJasmine2Reporter());
