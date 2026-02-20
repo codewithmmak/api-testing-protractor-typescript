@@ -5,18 +5,18 @@
   "homepage": "https://github.com/qaloop/api-testing-protractor-typescript",
   "main": "conf.js",
   "dependencies": {
-    "jasmine": "^3.99.0",
-    "protractor": "^5.4.4",
+    "jasmine": "^6.0.0",
+    "protractor": "^7.0.0",
     "protractor-beautiful-reporter": "^1.3.6",
     "request": "^2.88.2",
-    "rimraf": "^2.7.1",
-    "typescript": "^3.9.10"
+    "rimraf": "^6.1.3",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@types/jasmine": "^3.10.5",
-    "codelyzer": "^4.5.0",
-    "tslint": "^5.20.1",
-    "yargs-parser": "^21.0.1"
+    "@types/jasmine": "^6.0.0",
+    "codelyzer": "^6.0.2",
+    "tslint": "^6.1.3",
+    "yargs-parser": "^22.0.0"
   },
   "scripts": {
     "tsc": "tsc",
@@ -36,7 +36,7 @@
     "testing",
     "api testing"
   ],
-  "author": "QA Loop",
+  "author": "Code with MMAK",
   "license": "MIT",
   "repository": {
     "type": "git",
