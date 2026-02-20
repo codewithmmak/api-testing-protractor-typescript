@@ -1,10 +1,6 @@
-import { browser } from 'protractor';
-
 var request = require('request');
 
 describe('Filtering resources in API: ', function () {
-
-    browser.ignoreSynchronization = true; // for non-angular websites
 
     it('As a user I can filter a resource', function (done) {
 

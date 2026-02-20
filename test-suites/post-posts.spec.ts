@@ -1,10 +1,6 @@
-import { browser } from 'protractor';
-
 var request = require('request');
 
 describe('POST method in API: ', function () {
-
-    browser.ignoreSynchronization = true; // for non-angular websites
 
     it('As a user I can create a resource', function (done) {
 

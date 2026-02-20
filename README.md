@@ -15,11 +15,8 @@ This API Test Automation framework is designed using Request node module, Protra
 
 ### Pre-requisites
 * Download and install Chrome or Firefox browser.
-* Download and install Node.js:
-  * [Install Node.JS](https://qaloop.tk/blog/install-node-js/ "Install Node.JS")
+* Download and install Node.js
 * Optional - Download and install any Text Editor like Visual Code/Sublime/Brackets
-  * [Install Visual Studio Code](https://qaloop.tk/blog/install-visual-studio-code/ "Install Visual Studio Code")
-
 
 ### Setup Scripts 
 * Clone the repository into a folder
@@ -41,17 +38,5 @@ This API Test Automation framework is designed using Request node module, Protra
 
 ![API Testing using Protractor, Jasmine and Typescript Console Test Results](./images/console-test-results.png?raw=true "API Testing using Protractor, Jasmine and Typescript Console Test Results")
 
-
-## [Step by Step installation instruction for Beginners](https://qaloop.tk/blog/rest-api-automation-using-request-npm-protractor-jasmine-and-typescript  "Step by Step installation instruction for Beginners")
-
-
-## Visit my [Blog](https://qaloop.tk/blog/ "Blog")
-
-## Reference
-* https://www.npmjs.com/package/request
-
-* https://jsonplaceholder.typicode.com/
-* https://github.com/typicode/jsonplaceholder
-
-* https://github.com/toddmotto/public-apis
-* https://github.com/davemachado/public-api
+## :thought_balloon: Checkout the blogs related to Software Testing on my [website]
+[website]: https://www.codewithmmak.com/

@@ -2,7 +2,6 @@
   "name": "api-testing-protractor-typescript",
   "version": "1.0.0",
   "description": "This API Test Automation framework is designed using Request node module, Protractor, Jasmine and TypeScript",
-  "homepage": "https://github.com/qaloop/api-testing-protractor-typescript",
   "main": "conf.js",
   "dependencies": {
     "jasmine": "^6.0.0",
@@ -19,10 +18,10 @@
     "yargs-parser": "^22.0.0"
   },
   "scripts": {
+    "clean": "rimraf temp/ && rimraf test-results/ && rimraf download/",
     "tsc": "tsc",
-    "clean": "rimraf temp/ && rimraf download/",
     "pretest": "npm run clean && npm run tsc",
-    "test": "protractor temp/conf.js",
+    "test": "npm run pretest && protractor temp/conf.js",
     "webdriver-update": "node node_modules/protractor/bin/webdriver-manager update"
   },
   "keywords": [
